@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620168C81D9BC45E00228AE0 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 620168C71D9BC45E00228AE0 /* EmojisList.plist */; };
+		620168CB1D9BDD5B00228AE0 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620168CA1D9BDD5B00228AE0 /* CollectionViewCell.m */; };
+		6201B8B81D9CA59E00013551 /* faceDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6201B8B71D9CA59E00013551 /* faceDelete.png */; };
+		6201B8E41D9CD56700013551 /* PageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8E31D9CD56700013551 /* PageCollectionViewCell.m */; };
 		626424471D94DAB10026DA9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626424461D94DAB10026DA9F /* main.m */; };
 		6264244A1D94DAB10026DA9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626424491D94DAB10026DA9F /* AppDelegate.m */; };
 		6264244D1D94DAB10026DA9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264244C1D94DAB10026DA9F /* ViewController.m */; };
@@ -15,6 +19,9 @@
 		626424551D94DAB10026DA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626424531D94DAB10026DA9F /* LaunchScreen.storyboard */; };
 		626424601D94DAB20026DA9F /* CdKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264245F1D94DAB20026DA9F /* CdKeyboardDemoTests.m */; };
 		6264246B1D94DAB20026DA9F /* CdKeyboardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264246A1D94DAB20026DA9F /* CdKeyboardDemoUITests.m */; };
+		6264247C1D94DC2E0026DA9F /* Cd_EmojiKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264247B1D94DC2E0026DA9F /* Cd_EmojiKeyboard.m */; };
+		627C5B141DA0BCDF004D99EF /* deleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627C5B131DA0BCDF004D99EF /* deleteCell.m */; };
+		627C5B561DA7D974004D99EF /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 627C5B551DA7D974004D99EF /* CommentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620168C71D9BC45E00228AE0 /* EmojisList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EmojisList.plist; sourceTree = "<group>"; };
+		620168C91D9BDD5B00228AE0 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		620168CA1D9BDD5B00228AE0 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		6201B8B71D9CA59E00013551 /* faceDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceDelete.png; sourceTree = "<group>"; };
+		6201B8E21D9CD56700013551 /* PageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCollectionViewCell.h; sourceTree = "<group>"; };
+		6201B8E31D9CD56700013551 /* PageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCollectionViewCell.m; sourceTree = "<group>"; };
 		626424421D94DAB10026DA9F /* CdKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CdKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626424461D94DAB10026DA9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		626424481D94DAB10026DA9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,12 @@
 		626424661D94DAB20026DA9F /* CdKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CdKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6264246A1D94DAB20026DA9F /* CdKeyboardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CdKeyboardDemoUITests.m; sourceTree = "<group>"; };
 		6264246C1D94DAB20026DA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6264247A1D94DC2E0026DA9F /* Cd_EmojiKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cd_EmojiKeyboard.h; sourceTree = "<group>"; };
+		6264247B1D94DC2E0026DA9F /* Cd_EmojiKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cd_EmojiKeyboard.m; sourceTree = "<group>"; };
+		627C5B121DA0BCDF004D99EF /* deleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteCell.h; sourceTree = "<group>"; };
+		627C5B131DA0BCDF004D99EF /* deleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteCell.m; sourceTree = "<group>"; };
+		627C5B541DA7D974004D99EF /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		627C5B551DA7D974004D99EF /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		626424391D94DAB10026DA9F = {
 			isa = PBXGroup;
 			children = (
+				626424791D94DB6C0026DA9F /* CdKeyboard */,
 				626424441D94DAB10026DA9F /* CdKeyboardDemo */,
 				6264245E1D94DAB20026DA9F /* CdKeyboardDemoTests */,
 				626424691D94DAB20026DA9F /* CdKeyboardDemoUITests */,
@@ -138,6 +158,25 @@
 				6264246C1D94DAB20026DA9F /* Info.plist */,
 			);
 			path = CdKeyboardDemoUITests;
+			sourceTree = "<group>";
+		};
+		626424791D94DB6C0026DA9F /* CdKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6201B8B71D9CA59E00013551 /* faceDelete.png */,
+				620168C71D9BC45E00228AE0 /* EmojisList.plist */,
+				627C5B541DA7D974004D99EF /* CommentView.h */,
+				627C5B551DA7D974004D99EF /* CommentView.m */,
+				6264247A1D94DC2E0026DA9F /* Cd_EmojiKeyboard.h */,
+				6264247B1D94DC2E0026DA9F /* Cd_EmojiKeyboard.m */,
+				6201B8E21D9CD56700013551 /* PageCollectionViewCell.h */,
+				6201B8E31D9CD56700013551 /* PageCollectionViewCell.m */,
+				620168C91D9BDD5B00228AE0 /* CollectionViewCell.h */,
+				620168CA1D9BDD5B00228AE0 /* CollectionViewCell.m */,
+				627C5B121DA0BCDF004D99EF /* deleteCell.h */,
+				627C5B131DA0BCDF004D99EF /* deleteCell.m */,
+			);
+			path = CdKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +246,7 @@
 				TargetAttributes = {
 					626424411D94DAB10026DA9F = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XU8JKL5P74;
 					};
 					6264245A1D94DAB20026DA9F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -244,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				626424551D94DAB10026DA9F /* LaunchScreen.storyboard in Resources */,
+				620168C81D9BC45E00228AE0 /* EmojisList.plist in Resources */,
+				6201B8B81D9CA59E00013551 /* faceDelete.png in Resources */,
 				626424521D94DAB10026DA9F /* Assets.xcassets in Resources */,
 				626424501D94DAB10026DA9F /* Main.storyboard in Resources */,
 			);
@@ -270,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6264247C1D94DC2E0026DA9F /* Cd_EmojiKeyboard.m in Sources */,
+				620168CB1D9BDD5B00228AE0 /* CollectionViewCell.m in Sources */,
 				6264244D1D94DAB10026DA9F /* ViewController.m in Sources */,
 				6264244A1D94DAB10026DA9F /* AppDelegate.m in Sources */,
+				627C5B141DA0BCDF004D99EF /* deleteCell.m in Sources */,
 				626424471D94DAB10026DA9F /* main.m in Sources */,
+				627C5B561DA7D974004D99EF /* CommentView.m in Sources */,
+				6201B8E41D9CD56700013551 /* PageCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CdKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glx.CdKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CdKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glx.CdKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +549,7 @@
 				626424711D94DAB20026DA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626424721D94DAB20026DA9F /* Build configuration list for PBXNativeTarget "CdKeyboardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +558,7 @@
 				626424741D94DAB20026DA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626424751D94DAB20026DA9F /* Build configuration list for PBXNativeTarget "CdKeyboardDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +567,7 @@
 				626424771D94DAB20026DA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
